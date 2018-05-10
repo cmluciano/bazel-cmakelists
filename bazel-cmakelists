@@ -13,7 +13,7 @@
 #
 # DON'T USE CMAKE TO BUILD THE PROJECT. It is not tested and likely to fail.
 
-import gflags as flags
+import absl.flags as flags
 from os import path
 import os
 import re
